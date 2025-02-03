@@ -1,7 +1,7 @@
 ChangeLog
 ==========
 
-0.8.0 (unreleased)
+0.8.0 (2025-02-03)
 ==================
 * Use `upon` instead of `eyre`
 * Add a way to change epub direction
