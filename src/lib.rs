@@ -170,6 +170,7 @@ mod zip_library;
 pub use epub::EpubBuilder;
 pub use epub::EpubVersion;
 pub use epub::MetadataOpf;
+pub use epub::MetadataOpfV3;
 pub use epub::PageDirection;
 pub use epub_content::EpubContent;
 pub use epub_content::ReferenceType;
