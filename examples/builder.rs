@@ -11,7 +11,7 @@ use std::io::Write;
 // Try to print Zip file to stdout
 fn run() -> Result<()> {
     env_logger::init();
-    // Some dummy content to fill our books
+    // Some dummy content to fill our book
     let dummy_content = r#"<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
 <body>
