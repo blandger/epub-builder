@@ -1,6 +1,10 @@
 ChangeLog
 ==========
 
+0.8.2 (2025-11-27)
+=======================
+* Add Send + Sync constraint to MetadataRenderer (whth)
+
 0.8.1 (2025-11-22)
 =======================
 * Add support for Epub v3.3 metadata (catouc)
