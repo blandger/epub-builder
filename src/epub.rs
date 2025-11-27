@@ -30,7 +30,7 @@ pub enum EpubVersion {
     V33,
 }
 
-pub trait MetadataRenderer {
+pub trait MetadataRenderer: Send + Sync {
     fn render_opf(&self, escape_html: bool) -> String;
 }
 
